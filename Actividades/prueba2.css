@@ -1,0 +1,58 @@
+#imagen {
+
+    position: relative;
+    top: 10px; 
+    width: 200px;}
+   
+   /*ocultamos la imagen tamaño real*/
+   #imagen a .t-real {
+    width: 1px; /*dimensionamos a 1px de ancho */
+    height: 1px; /*y 1px de alto */
+    display: block;
+    position: relative; /*la posicionamos fuera de la parte visible de la pantalla */
+    left: 0px;
+    top: 0px;
+   }
+   
+   /*quitamos el borde a las imagenes */
+   #imagen a img {
+    border: 0;
+    position: relative;
+   }
+   
+   
+   /*mostramos imagen tamaño real */
+   #imagen a.img-link:active .t-real {
+    height: auto; /*alto imagen tamaño real*/
+    width: 800px; /*ancho imagen tamaño real*/
+    border: 1px solid #000000; /*borde imagen tamaño real*/
+    display: block;
+    position: fixed; 
+    left: 200px; /*posición con relación al tamaño de la imagen pequeña thumbnail*/
+    top: -100px; 
+   
+   }
+
+   #imagen a .t-real2 {
+    width: 1px; /*dimensionamos a 1px de ancho */
+    height: 1px; /*y 1px de alto */
+    display: block;
+    position: relative; /*la posicionamos fuera de la parte visible de la pantalla */
+    left: 0px;
+    top: 0px;
+   }
+   
+
+   
+   
+   /*mostramos imagen tamaño real */
+   #imagen a.img-link:active .t-real2 {
+    height: auto; /*alto imagen tamaño real*/
+    width: 900px; /*ancho imagen tamaño real*/
+    border: 1px solid #000000; /*borde imagen tamaño real*/
+    display: block;
+    position: fixed; 
+    left: 10px; /*posición con relación al tamaño de la imagen pequeña thumbnail*/
+    top: -10px; 
+   
+   }

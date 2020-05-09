@@ -1,0 +1,45 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Actividad </title>
+</head>
+<body>
+    <div class="background">
+    <form action="http://www.example.com/comments.php">
+        <fieldset> <!--primer conjunto-->
+            <legend>Sus datos:</legend>
+            <label>Nombre: <input type="text" placeholder="Escriba su nombre" required="required" name="name"/></label><br />
+            <label>Email:  <input type="email" placeholder="Escriba su email" required="required" name="email"/></label><br>
+        </fieldset>
+        <fieldset> <!--segundo conjunto-->
+            <legend>Su opinion:</legend><br>
+            ¿Como se entero de nosotros?
+            <select name="devices">
+            <option value="google">Google</option>
+                <option value="instagram">Instagram</option>
+                <option value="facebook">Facebook</option>
+            </select><br>
+            <p>¿Volveria a visitarnos?
+                <br />
+                <input type="radio" name="option" value="yes" checked="checked"/> Si    
+                <input type="radio" name="option" value="no" checked="checked"/> No
+                <input type="radio" name="option" value="maybe" checked="checked"/> Tal vez 
+                </p>
+            <label for="comentario">Comentarios:</label><br>
+            <textarea name="comments" required="required" id="comentario" cols="20" rows="4" placeholder="Escribe tu comentario..."></textarea>
+            <br><br>
+            <input type="checkbox" name="option" value="updates" checked="checked"/> Inscribete para actulizacion por correo electronico
+            <br>
+            <input type="submit" value="Submit review" />
+        </fieldset>
+    </form>
+</div>
+    <a href="..\index.html" style="border: 1px solid black; font-size: 14px; font-family: comic sans ms; padding: 5px; background-color: whitesmoke; text-decoration: none; color: black; border-radius: 10px;">Bitacora De Proyectos</a>
+<br>
+<div>
+<style type="css">
+.background {background: linear-gradient(45 deg, red, blue);}
+</style>
+</div>
+</body>
+</html>
