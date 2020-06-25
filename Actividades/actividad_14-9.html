@@ -1,0 +1,24 @@
+<!DOCTYPE html> 
+<html> 
+    <head>
+        <title>Border Image</title> 
+        <style type="text/css"> 
+        p { width: 400px; height: 100px; border: 15px solid #ffffff;} 
+        p.one { -moz-border-image: url("https://live.staticflickr.com/65535/50042311716_79bbcd6f7d_o.gif") 11 11 11 11 stretch;
+        -webkit-border-image: url("https://live.staticflickr.com/65535/50042311716_79bbcd6f7d_o.gif") 11 11 11 11 stretch; 
+        border-image: url("https://live.staticflickr.com/65535/50042311716_79bbcd6f7d_o.gif") 11 11 11 11 stretch;} 
+        p.two { -moz-border-image: url("https://live.staticflickr.com/65535/50042311716_79bbcd6f7d_o.gif") 11 11 11 11 round; 
+        -webkit-border-image: url("https://live.staticflickr.com/65535/50042311716_79bbcd6f7d_o.gif") 11 11 11 11 round; 
+        border-image: url("https://live.staticflickr.com/65535/50042311716_79bbcd6f7d_o.gif") 11 11 11 11 round;} 
+        </style> 
+    </head> 
+    <body> 
+        <p class="one"> La propiedad border-image aplica una imagen al borde de cualquier cuadro. 
+        En este ejemplo toma una imagen de fondo y la corta en nueve piezas.</p> 
+        <p class="two">Esta propiedad requiere tres elementos de información: 
+        1: la URL de la imagen 2: dónde cortar la imagen 3: Qué hacer con los bordes rectos </p> 
+        <p>Las propiedades -moz-border-image y -webkit-border-image no están en la especificación 
+        CSS, pero ayudan a las versiones anteriores de Chrome, Firefox y Safari a mostrar este efecto.</p> 
+    </body> 
+</html>
+    
