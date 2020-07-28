@@ -1,0 +1,132 @@
+div.barra {
+    background-color: white;
+    width: 100%;
+    margin-left: -6px ;
+margin-top: -10px;
+    height: 150px;
+   padding-top: -4px;
+  
+}
+h1{
+    font-family: 'Mulish', sans-serif;
+    font-size: 45px ;
+}
+
+div.logo {
+    float: left;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+div.notificaciones{
+   float: left;
+   margin-left: 200px;
+   margin-top: 30px;
+   margin-right: 100px;
+   
+}
+div.buscar_espe {
+    
+    float: left;
+    margin-top: 30px;
+    margin-right: 100px;
+    position: relative;
+}
+
+div.buscar_espe::after{
+    background-image: url(https://live.staticflickr.com/65535/50155770048_fb5229c940_w.jpg);
+    background-repeat: no-repeat;
+    content: "";
+    width: 80%;
+    height: 30%;
+    position: absolute;
+    bottom: -15px;
+    left: 10px;
+    z-index: 1;
+
+}
+
+div.buscar_serv {
+    float: left;
+    margin-top: 30px;
+   margin-right: 100px;
+}   
+
+div.menu {
+    float: left;
+    margin-top: 30px;
+   margin-right: 50px;
+}   
+
+.barra button {
+    border: 5px; 
+    background-color: white; 
+    font-size: 40px;
+    font-family: 'Mulish', sans-serif;
+    border-radius: 5px; 
+    padding: 10px;
+    width: 100%;
+    text-transform: uppercase;}
+.barra button:hover {
+    border: none; 
+    background-color: #f1f6f7; 
+    
+    cursor: pointer;} 
+
+a{
+    text-decoration: none;
+}
+
+div.frase{
+    font-family: 'Mulish', sans-serif;
+    font-size: 47px;
+   border: solid 4px;
+   border-color: #2e3192;
+   display: inline-block;
+   float: left;
+  margin-top: -2px;
+  margin-right: 60px;
+   width: 40%;
+   height: 300px;
+   margin-bottom: 60px;
+   border-radius: 20px;
+}
+
+.frase h1{
+
+padding-left: 40px;
+margin-bottom: -20px;
+}
+
+.frase p{
+font-size: 25px;
+padding-left: 40px;
+
+}
+
+div.especialistas{
+   
+    
+    width: 75%;
+    margin-top: 60px;
+    height: 700px;
+    margin-left: 350px;
+}
+
+p.contactar{
+    border-bottom: black solid 2px;
+    margin-top: 40px;
+    float: right;
+    margin-right: 20px;
+}
+
+p.contactar:hover {
+    border-bottom: #2e3192 solid; 
+    color: #2e3192;
+    
+    cursor: pointer;} 
+
+
+.frase a{
+    color: black;
+}

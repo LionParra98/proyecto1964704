@@ -1,0 +1,42 @@
+
+  .hijo {
+    border: solid;
+    margin-left: 550px;
+    margin-right: 550px;
+    margin-top: 250px;
+    height: 500px;
+    background: linear-gradient(45deg, white, #1f9cd7);
+  }
+  
+  a{
+      text-decoration: none;
+      color: black;
+
+  }
+
+  .hijo p{
+    font-family: 'Mulish', sans-serif;
+    font-size: 110px;
+    line-height: 60px;
+    text-align: left;
+    padding-left: 80px;
+    
+  }
+  .hijo p:hover {
+    border: none; 
+    color: #277ca4;
+    
+    cursor: pointer;} 
+
+
+    p.volver{
+        font-family: 'Mulish', sans-serif;
+        border-bottom: black solid 2px;
+        margin-top: 40px;
+        text-align: left;
+        padding-left: 0px;
+        width: 140px;
+        margin-left: 90px;
+        font-size: 35px;
+        margin-bottom: -50px;
+    }

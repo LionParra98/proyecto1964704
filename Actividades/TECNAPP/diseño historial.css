@@ -1,0 +1,70 @@
+div.barra {
+    background-color: white;
+    width: 100%;
+    margin-left: -6px ;
+margin-top: -10px;
+    height: 100px;
+   padding-top: -4px;
+  
+}
+
+div.historial{
+    
+    margin-bottom: -10px;
+    margin-top: -10px;
+
+}
+
+.histo p{
+    font-family: 'Mulish', sans-serif;
+    margin-top: 8px;
+}
+
+div.viñetas{
+    float: none;
+}
+
+.servicio p {
+    font-family: 'Mulish', sans-serif;
+    border: solid #1b1464;
+    font-size: 30px;
+    float: left;
+    padding: 10px;
+    width: 420px;
+}
+
+img{
+    float: left;
+    margin-top: 60px;
+}
+
+.barra {
+    border: none;
+    background-color: white; 
+    font-size: 60px;
+    font-family: 'Mulish', sans-serif;
+    border-radius: 5px; 
+    padding: 10px;
+
+    text-transform: uppercase;}
+
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+p.volver{
+    font-family: 'Mulish', sans-serif;
+    border-bottom: black solid 2px;
+    margin-top: 40px;
+    float: left;
+    margin-left: 55px;
+    font-size: 35px;
+}
+
+p.volver:hover {
+    border-bottom: #277ca4 solid; 
+    color: #277ca4;
+    
+    cursor: pointer;} 

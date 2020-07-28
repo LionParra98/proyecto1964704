@@ -1,0 +1,200 @@
+div.barra {
+    background-color: white;
+    width: 100%;
+    margin-left: -6px ;
+margin-top: -10px;
+    height: 150px;
+   padding-top: -4px;
+  
+}
+h1{
+    font-family: 'Mulish', sans-serif;
+    font-size: 40px ;
+}
+
+div.logo {
+    float: left;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+div.servicios1{
+   float: left;
+   margin-left: 400px;
+   margin-top: 30px;
+   margin-right: 100px;
+   
+}
+div.mision1 {
+    display: ;
+    float: left;
+    margin-top: 30px;
+    margin-right: 100px;
+}
+
+div.vision1 {
+    float: left;
+    margin-top: 30px;
+   margin-right: 100px;
+}   
+
+.barra button {
+    border: 5px; 
+    background-color: white; 
+    font-size: 40px;
+    font-family: 'Mulish', sans-serif;
+    border-radius: 5px; 
+    padding: 10px;
+    width: 100%;
+    text-transform: uppercase;}
+.barra button:hover {
+    border: none; 
+    background-color: #f1f6f7; 
+    
+    cursor: pointer;} 
+
+a{
+    text-decoration: none;
+}
+
+div.login {
+    float: right;
+  
+   margin-top: 50px;
+   width: 50%;
+   
+   margin-right: ;
+   height: 700px;
+}
+
+div.logo1 {
+    
+  
+    margin-left: 300px;
+}
+
+.login input {
+    padding: 10px 0;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border-bottom: solid 2px blue;
+    width: 320px;
+    border: none;
+    background-color: #e2f0f9;
+  
+} 
+.login textarea {
+    height: 80px;
+    padding: 10px 0;
+    float: right;
+    width: 50px;
+    } 
+
+    input[type="text"]:focus, input[type="text"]:hover {
+        background-color: #e2f0f9;
+        border: 1px solid #1489e9;} 
+    
+  
+        
+label {
+            font-size: 50px;
+           float: left;
+            color: black ;
+        margin-left: 20px;
+        
+        font-family: 'Mulish', sans-serif;
+    }
+    
+.contraseña input{
+        margin-left: 20px;
+        
+    }
+
+.correo input {
+    margin-left: 130px;
+    
+}
+
+.correo ::placeholder{
+    color: #1c8dd3;
+    font-size: 70px;
+}
+
+.contraseña ::placeholder{
+    color: #1c8dd3;
+    font-size: 70px;
+}
+
+.contraseña input[type="text"] {
+    font-size: 25px;
+    padding-left: 20px;
+}
+
+.correo input[type="text"] {
+    font-size: 25px;
+    padding-left: 20px;
+}
+
+.olvido a{
+    font-size: 20px;
+    float: center;
+    border: 5px; 
+    background-color: white; 
+    font-size: 25px;
+    font-family: 'Mulish', sans-serif;
+    padding: 10px;
+    margin-left: 330px;
+    text-decoration: none;
+    color: black;
+}
+
+div.facebook {
+    float: left;
+}
+.facebook img{
+    margin-top: 25px;
+    margin-left: 5px;
+
+}
+
+div.ingresar {
+    float: left;
+    margin-left: 350px;
+    margin-top: 10px;
+}
+
+.ingresar button{
+    border: 5px; 
+    background-color: #3b5998; 
+    font-size: 40px;
+    color: white;
+    font-family: 'Mulish', sans-serif;
+    border-radius: 15px; 
+    padding: 20px;
+    
+}
+
+.ingresar button:hover {
+    border: none; 
+    background-color: #38bce1; 
+    
+    cursor: pointer;} 
+
+.registrarse button{
+
+ margin-top: 10px;
+ float: left;
+ margin-left: 350px;
+ border: 5px; 
+    background-color: #e2f0f9; 
+    font-size: 40px;
+    color: black;
+    font-family: 'Mulish', sans-serif;
+    border-radius: 15px; 
+    padding: 20px;
+}
+
+.registrarse button:hover {
+    border: none; 
+    background-color: #38bce1; 
+    cursor: pointer;} 

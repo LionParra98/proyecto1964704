@@ -1,0 +1,282 @@
+div.barra {
+    background-color: white;
+    width: 100%;
+    margin-left: -6px ;
+margin-top: -10px;
+    height: 150px;
+   padding-top: -4px;
+  
+}
+h1{
+    font-family: 'Mulish', sans-serif;
+    font-size: 45px ;
+}
+
+div.logo {
+    float: left;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 500px;
+}
+
+div.notificaciones{
+   float: left;
+   margin-left: 200px;
+   margin-top: 30px;
+   margin-right: 100px;
+   
+}
+div.buscar_espe {
+   
+    float: left;
+    margin-top: 30px;
+    margin-right: 100px;
+    position: relative;
+}
+
+
+
+div.buscar_serv {
+    float: left;
+    margin-top: 30px;
+   margin-right: 100px;
+}   
+
+div.menu {
+    float: left;
+    margin-top: 30px;
+   margin-right: 50px;
+}   
+
+.barra button {
+    border: none; 
+    background-color: white; 
+    font-size: 50px;
+    font-family: 'Mulish', sans-serif;
+    border-radius: 5px; 
+    padding: 10px;
+    width: 100%;
+    text-transform: uppercase;}
+
+a{
+    text-decoration: none;
+}
+
+div.frase{
+    font-family: 'Mulish', sans-serif;
+   border: none;
+   border-color: #2e3192;
+   height: 90px;
+   background-color: #1d2666;
+   margin-top: -5px;
+   
+   
+
+}
+
+span{
+    font-size: 55px;
+    color: rgba(236, 249, 252, 0);
+    
+}
+
+.frase h1{
+
+padding-left: 10px;
+
+}
+
+.frase p{
+font-size: 40px;
+padding-left: 10px;
+text-align: left;
+margin-top: 5px;
+color: white;
+}
+
+div.scroll{
+    border: none;
+    overflow: auto;
+    position: relative  ;
+    width: 700px;
+    
+    height: 500px;
+    z-index: 2;
+}
+.scroll::-webkit-scrollbar{
+    width: 7px;
+    }
+
+    .scroll::-webkit-scrollbar-thumb{
+        background: #47b0d3;
+        border-radius: 6px;
+        
+        }
+
+p.especialista {
+    float: left;
+    font-size: 20px;
+    font-family: 'Mulish', sans-serif;
+    border: solid;
+    background-color: white;
+    border: solid 2px #5cc5e7;
+    padding: 10px 10px 10px 10px;
+    margin-top: 30px;
+}
+p.cliente {
+    font-family: 'Mulish', sans-serif;
+    float: right;
+    font-size: 20px;
+    background-color: #5cc5e7;
+    color: white;
+    margin-right: 5px;
+    border: none;
+    padding: 10px 10px 10px 10px;
+    margin-top: 30px;
+}
+img.cliente_chat{
+    float: right;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+div.especialista_chat1{
+    
+    height: 150px;
+}
+div.cliente_chat1{
+   
+    
+    height: 150px;
+}
+
+img.especialista_chat{
+    float: left;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+
+div.especialistas{
+   
+    
+    border: solid 1px #1d2666;
+    margin-top: 60px;
+    height: 600px;
+    margin-left: 600px;
+    margin-right: 600px;
+    position: relative;
+}
+
+div.especialistas::after{
+    border: solid  rgba(236, 249, 252, 0.5);
+    content: "";
+    width: 102%;
+    height: 102%;
+    position: absolute;
+   right: 0;
+   left: -10px;
+   bottom: -10px;
+    
+    z-index: 1;}
+
+p.contactar{
+    border-bottom: black solid 2px;
+    margin-top: 40px;
+    float: right;
+    margin-right: 20px;
+}
+
+.frase a{
+    color: black;
+}
+
+.chat input {
+    padding: 20px ;
+    margin-top: 10px;
+    box-sizing: border-box;
+    border-bottom: solid 2px blue;
+    width: 600px;
+    height: 100px;
+    border: solid 1px black;
+    background-color: white;
+    font-size: 16px;
+    font-family: 'Mulish', sans-serif;
+}
+    
+div.chat {
+    z-index: 2;
+    position: relative;
+    width: 600px;
+    border: none;
+    margin-left: 20px;
+    float: left;
+}
+
+div.enviar{
+    z-index: 2;
+    position: relative;
+    float: right;
+    border: none;
+}
+
+.enviar img{
+    margin-top: 10px;
+    margin-right: 10px;
+}
+div.botones{
+    width: 650px;
+    border: snone;
+    z-index: 2;
+    position: relative;
+    height: 40px;
+    margin-top: 120px;
+    margin-left: 20px;
+    
+}
+
+div.otro {
+    float: left;
+    margin-right: 100px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.otro button {
+    border: solid 1px #1d2666;
+    font-family: 'Mulish', sans-serif;
+    background-color: #1d2666;
+    color: white;
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+div.confirmar {
+   
+    
+}
+
+.confirmar button {
+    border: solid 1px #1d2666;
+    font-family: 'Mulish', sans-serif;
+    background-color: #1d2666;
+    color: white;
+    border-radius: 20px;
+    margin-top: 5px;
+margin-left: 140px;
+font-size: 20px;
+}
+
+p.volver{
+    font-family: 'Mulish', sans-serif;
+    border-bottom: black solid 2px;
+color: black;
+    float: left;
+    margin-left: 170px;
+    font-size: 45px;
+}
+
+p.volver:hover {
+    border-bottom: #277ca4 solid; 
+    color: #277ca4;
+    
+    cursor: pointer;} 
